@@ -1,0 +1,150 @@
+@import "../../../node_modules/rfs/scss";
+
+$hover_color: #21c0ff;
+$bg_color: #353D64;
+
+.index {
+  .header{
+  background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .sticky{
+  background-color: rgb(255, 255, 255);
+    
+  }
+}
+
+
+.header {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 10vh;
+  padding: 0 3vw;
+
+  color: white;
+
+  background-color: $bg_color;
+  border-bottom: 1px solid #000;
+
+  &.mod2 {
+  }
+}
+
+// Sticky header
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  animation: headerOpacity 2s linear;
+
+  z-index: 100;
+
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+
+  color: #000;
+
+  @keyframes headerOpacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.sticky + .hero {
+  padding-top: 18px;
+}
+
+/* ---------------------------------- Logo ---------------------------------- */
+.overlay,
+.fixed-action-btn {
+  display: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &_icon {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.2);
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    margin: 0;
+    color: inherit;
+    font-size: clamp(1.3rem, 2vw, 3rem);
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+
+  & a:hover {
+    color: $hover_color;
+    text-decoration: underline;
+  }
+}
+
+/* ------------------------------- 4 Languages ------------------------------ */
+.language-list {
+  position: fixed;
+  top: 50%;right: 0;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  padding: 5px;
+  color: white;
+
+  background-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+
+  z-index: 100;
+
+  input {
+    display: none;
+
+
+    &:checked + label {
+      text-decoration: underline;
+    }
+  }
+  & label{
+    @include font-size(1.3rem);
+
+  }
+  & label:hover {
+    color: $hover_color;
+  }
+}
+
+/* --------------------------------- Mobile --------------------------------- */
+@media screen and (max-width: 1250px) {
+  .overlay,
+  .fixed-action-btn {
+    display: block;
+  }
+
+
+  .nav {
+    display: none;
+  }
+
+}
