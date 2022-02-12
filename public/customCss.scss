@@ -42,3 +42,30 @@
     }
   }
 }
+
+
+.home .site-navigation ul li:nth-child(1) a{
+color: hsl(244, 100%, 50%) !important;
+} 
+.cad .site-navigation ul li:nth-child(2) a{
+color: hsl(244, 100%, 50%) !important;
+} 
+.services .site-navigation ul li:nth-child(3) a{
+color: hsl(244, 100%, 50%) !important;
+} 
+.formation .site-navigation ul li:nth-child(4) a{
+color: hsl(244, 100%, 50%) !important;
+} 
+.contact .site-navigation ul li:nth-child(5) a{
+color: hsl(244, 100%, 50%) !important;
+} 
+
+.cadGallery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  img {
+    padding: 1rem;
+    width: 40%;
+  }
+}

@@ -4,7 +4,7 @@ import "./header.css"
 class Header extends React.Component {
   render() {
     return (
-      <header className="site-header">
+      <header className={"site-header " + this.props.nav_select}>
         {/* Nav */}
         <div className="nav-bar">
           <div className="container">
@@ -18,11 +18,11 @@ class Header extends React.Component {
 
                 <nav className="site-navigation d-flex justify-content-end align-items-center">
                   <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                    <li className="current-menu-item">
+                    <li>
                       <a href="/">Accueil</a>
                     </li>
                     <li>
-                      <a href="/about">A propos</a>
+                      <a href="/plan_evacuation">Plan d'évacuation</a>
                     </li>
                     <li>
                       <a href="/services">Nos Services</a>
@@ -31,7 +31,7 @@ class Header extends React.Component {
                       <a href="/formation">Nos formations</a>
                     </li>
                     <li>
-                      <a href="/contact">Contact et infos</a>
+                      <a href="/contact">Contact</a>
                     </li>
 
                     <li className="call-btn button gradient-bg mt-3 mt-md-0">
@@ -94,9 +94,9 @@ class Header extends React.Component {
                       </div>
 
                       <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                        <a href="#" className="button gradient-bg">
+                        {/* <a href="#" className="button gradient-bg">
                           à propos de nous
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>
@@ -137,9 +137,9 @@ class Header extends React.Component {
                       </div>
 
                       <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                        <a href="#" className="button gradient-bg">
+                        {/* <a href="#" className="button gradient-bg">
                           à propos de nous
-                        </a>
+                        </a> */}
                       </div>
                       {/* <img src="images/Hero/1.png" alt="" /> */}
                     </div>

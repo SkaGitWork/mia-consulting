@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <Header />
+        <Header nav_select={"formation"} />
         <div className="quality-services">
           <div className="container">
             <div className="row">

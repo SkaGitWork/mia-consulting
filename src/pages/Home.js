@@ -6,8 +6,18 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <Header />
-        <div className="homepage-boxes">
+        <Header nav_select={"home"} />
+        
+        <Footer />
+      </>
+    )
+  }
+}
+
+export default Home
+
+
+{/* <div className="homepage-boxes">
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-6 col-lg-4">
@@ -107,11 +117,4 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-        <Footer />
-      </>
-    )
-  }
-}
-
-export default Home
+        </div> */}

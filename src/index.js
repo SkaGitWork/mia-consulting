@@ -5,7 +5,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Home from "./pages/Home"
-import About from "./pages/About"
+import Cad from "./pages/Cad"
 import Services from "./pages/Services"
 import Formation from "./pages/Formation"
 import Contact from "./pages/Contact"
@@ -25,7 +25,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/plan_evacuation" element={<Cad />} />
           <Route path="/services" element={<Services />} />
           <Route path="/formation" element={<Formation />} />
           <Route path="/contact" element={<Contact />} />

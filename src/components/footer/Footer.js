@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="footer-widgets">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-around">
             <div className="col-12 col-md-6 col-lg-4">
               <div className="foot-about">
                 <h2>
@@ -15,9 +15,9 @@ function Footer() {
                 </h2>
 
                 <p>
-                  MIAC est un bureau d’études et de formation spécialisé dans le
-                  domaine de l’environnement et la sécurité des risques
-                  industriels
+                  <strong>MIAC</strong> est un bureau d’études et de formation
+                  spécialisé dans le domaine de l’environnement et la sécurité
+                  des risques industriels
                 </p>
 
                 <p className="copyright">
@@ -32,21 +32,21 @@ function Footer() {
 
                 <ul className="p-0 m-0">
                   <li>
-                    <span>Addresse:</span> Boulevard du Stade Olympique Rue
+                    <span>Addresse : </span> Boulevard du Stade Olympique Rue
                     Nassen 4000 Sousse{" "}
                   </li>
                   <li>
-                    <span>Numéros:</span> tél 00(216) 73 203277/ GSM : 98 275
+                    <span>Numéros : </span> tél (216) 73 203277/ GSM : 98 275
                     954
                   </li>
                   <li>
-                    <span>Email:</span> ds@miaconsulting.com.tn
+                    <span>Email : </span> denguezli_sami@yahoo.fr
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+            {/* <div className="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
               <div className="foot-links">
                 <h2>Liens utiles</h2>
 
@@ -68,7 +68,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

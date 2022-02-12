@@ -161,7 +161,7 @@ a:hover, a:active {
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    color: #404040;
+    color: hsl(0deg 10% 20%);
     text-decoration: none;
     transition: color .35s;
 }
@@ -208,7 +208,7 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-    color: #18a3eb;
+    color: hsl(244, 100%, 50%);
 }
 
 /*--------------------------------------------------------------
@@ -248,10 +248,10 @@ a:hover, a:active {
 }
 
 .hero-content-overlay p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 2;
-    color: #828282;
+    color: hsl(0, 0%, 25%);
 }
 
 .hero-slider .pagination-wrap {
@@ -1254,9 +1254,9 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .quality-services p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
-    color: #828282;
+    color: hsl(0, 0%, 25%);
 }
 
 .services-tabs {
@@ -1515,8 +1515,8 @@ ul.tabs-nav .tab-nav.active {
     padding: 48px 0;
     background: url("images/footer-bg.png") no-repeat center #fff;
     background-size: cover;
-    font-size: 14px;
-    color: #828282;
+    font-size: 16px;
+    color: hsl(0, 0%, 25%);
 }
 
 .footer-widgets h2 {
@@ -1530,7 +1530,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-about p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
 }
 
@@ -1551,11 +1551,11 @@ ul.tabs-nav .tab-nav.active {
 
 .foot-contact ul li span {
     display: inline-block;
-    color: #404040;
+    color: #1100ff;
 }
 
 .foot-contact ul li span {
-    width:64px;
+    /* width:64px; */
 }
 
 .foot-links ul {

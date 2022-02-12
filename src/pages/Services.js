@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <Header />
+        <Header nav_select={"services"} />
         <div className="quality-services">
           <div className="container">
             <div className="row">
@@ -21,9 +21,9 @@ class Home extends React.Component {
                   </p>
                 </center>
                 <div className="w-100 text-center mt-5">
-                  <a className="button gradient-bg" href="#">
+                  {/* <a className="button gradient-bg" href="#">
                     Lire plus
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -57,7 +57,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -69,7 +69,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -90,13 +90,13 @@ class Home extends React.Component {
                       <header className="entry-header d-flex flex-wrap align-items-center">
                         <img src="imagess/stretcher.png" alt="" />
                         <h3>
-                          Préparation des études de conformité des moyens de
-                          lutte contre l'incendie
+                          Préparation des études des moyens de lutte contre
+                          l'incendie
                         </h3>
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ class Home extends React.Component {
                         </p>
                       </div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -137,19 +137,19 @@ class Home extends React.Component {
                     <div className="our-departments-cont">
                       <header className="entry-header d-flex flex-wrap align-items-center">
                         <img src="imagess/blood-donation-2.png" alt="" />
-                        <h3>Mise en place de OHSAS 18001 / ISO 45001</h3>
+                        <h3>Mise en place de ISO 45001</h3>
                       </header>
                       <div className="entry-content">
                         <p>
-                          OHSAS 18001/ISO 45001 : vise à identifier un
-                          risque/danger inhérent au milieu du travail pouvant
-                          causer un accident ou une maladie professionnelle. Ce
-                          système prône également l'amélioration continue des
-                          conditions de travail et des performances SST.
+                          ISO 45001 : vise à identifier un risque/danger
+                          inhérent au milieu du travail pouvant causer un
+                          accident ou une maladie professionnelle. Ce système
+                          prône également l'amélioration continue des conditions
+                          de travail et des performances SST.
                         </p>
                       </div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ class Home extends React.Component {
                       </header>
                       <div className="entry-content"></div>
                       <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
+                        {/* <a href="#">Lire plus</a> */}
                       </footer>
                     </div>
                   </div>
