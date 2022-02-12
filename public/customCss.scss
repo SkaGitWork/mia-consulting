@@ -1,0 +1,44 @@
+:root { 
+    --plan_autocad: url("images/Hero/cadHero.png");
+    --hero1: url("images/Hero/hero.png");
+ }
+
+@media (max-width: 1000px) {
+    :root { 
+        --plan_autocad: url("images/Hero/cadM.png");
+     }
+}
+@media (max-width: 500px) {
+    :root { 
+        --plan_autocad: url("images/Hero/cadSmal1.png");
+     }
+}
+
+@media (max-width: 650px) {
+  .Cindex {
+    display: none;
+  }
+  .chero {
+    width: 100%;
+    height: 300px;
+    /* background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("images/Hero/1.png"); */
+  }
+  .Ctext {
+    h1,
+    p {
+      background: hsla(0, 0%, 0%, 0.4);
+      padding: 1rem;
+      background: hsla(0, 0%, 0%, 0.4);
+      border-radius: 1rem;
+    }
+
+    h1 {
+      color: white !important;
+    }
+    p {
+      color: hsl(0, 0%, 95%) !important;
+    }
+  }
+}

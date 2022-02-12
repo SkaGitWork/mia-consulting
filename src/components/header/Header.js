@@ -63,31 +63,34 @@ class Header extends React.Component {
             <div
               className="swiper-slide hero-content-wrap"
               style={{
-                backgroundImage: `url("images/hero.jpg")`,
+                backgroundImage: "var(--hero1)",
               }}
             >
               <div className="hero-content-overlay position-absolute w-100 h-100">
                 <div className="container h-100">
                   <div className="row h-100">
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
-                      <div className="entry-header">
-                        <br />
-                        <br />
-                        <br />
+                      <div className="Ctext">
+                        <div className="entry-header">
+                          <br />
+                          <br />
+                          <br />
 
-                        <h1>
-                          Management <br />
-                          Ingénierie <br /> Assistance <br /> et Conseils (MIAC)
-                        </h1>
-                      </div>
+                          <h1>
+                            Management <br />
+                            Ingénierie <br /> Assistance <br /> et Conseils
+                            (MIAC)
+                          </h1>
+                        </div>
 
-                      <div className="entry-content mt-4">
-                        <p>
-                          {" "}
-                          MIAC est un bureau d’études et de formation spécialisé
-                          dans le domaine de l’environnement et la sécurité des
-                          risques industriels … 
-                        </p>
+                        <div className="entry-content mt-4">
+                          <p>
+                            {" "}
+                            MIAC est un bureau d’études et de formation
+                            spécialisé dans le domaine de l’environnement et la
+                            sécurité des risques industriels … 
+                          </p>
+                        </div>
                       </div>
 
                       <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
@@ -104,31 +107,33 @@ class Header extends React.Component {
             <div
               className="swiper-slide hero-content-wrap"
               style={{
-                backgroundImage: `url("images/plan_autocad.png")`,
+                backgroundImage: "var(--plan_autocad)",
               }}
             >
               <div className="hero-content-overlay position-absolute w-100 h-100">
                 <div className="container h-100">
                   <div className="row h-100">
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
-                      <div className="entry-header">
-                        <br />
-                        <br />
-                        <br />
+                      <div className="Ctext">
+                        <div className="entry-header">
+                          <br />
+                          <br />
+                          <br />
 
-                        <h1>
-                          Création <br />
-                          de plan <br /> d'évacuation
-                        </h1>
-                      </div>
+                          <h1>
+                            Elaboration <br />
+                            de plan <br /> d'évacuation
+                          </h1>
+                        </div>
 
-                      <div className="entry-content mt-4">
-                        <p>
-                          {" "}
-                          MIAC est un bureau d’études et de formation spécialisé
-                          dans le domaine de l’environnement et la sécurité des
-                          risques industriels … 
-                        </p>
+                        <div className="entry-content mt-4">
+                          <p>
+                            {" "}
+                            MIAC est un bureau d’études et de formation
+                            spécialisé dans le domaine de l’environnement et la
+                            sécurité des risques industriels … 
+                          </p>
+                        </div>
                       </div>
 
                       <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
@@ -136,6 +141,7 @@ class Header extends React.Component {
                           à propos de nous
                         </a>
                       </div>
+                      {/* <img src="images/Hero/1.png" alt="" /> */}
                     </div>
                   </div>
                 </div>
@@ -143,8 +149,8 @@ class Header extends React.Component {
             </div>
           </div>
           {/* Index */}
-          <div className="pagination-wrap position-absolute w-100">
-            <div className="swiper-pagination d-flex flex-row flex-md-column"></div>
+          <div className="pagination-wrap position-absolute w-100 Cindex">
+            <div className="swiper-pagination d-flex flex-column"></div>
           </div>
         </div>
       </header>

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
 
+
+
 body {
     color: #404040;
     font-size: 16px;
@@ -233,10 +235,16 @@ a:hover, a:active {
 
 .hero-content-overlay h1 {
     margin: 0;
-    font-size: 60px;
+    font-size: clamp(40px,4vw,60px);
     font-weight: 600;
     line-height: 1.2;
     color: #404040;
+}
+
+@media screen and (max-width: 1200px){
+.call-btn{
+    display: none;
+}
 }
 
 .hero-content-overlay p {
@@ -1563,3 +1571,4 @@ ul.tabs-nav .tab-nav.active {
 .foot-links ul li a {
     color: #828282;
 }
+
