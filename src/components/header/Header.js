@@ -1,4 +1,5 @@
 import React from "react"
+import Hero from "./Hero"
 import "./header.css"
 
 class Header extends React.Component {
@@ -60,93 +61,46 @@ class Header extends React.Component {
         <div className="swiper-container hero-slider">
           <div className="swiper-wrapper">
             {/* Slider 1 */}
-            <div
-              className="swiper-slide hero-content-wrap"
-              style={{
-                backgroundImage: "var(--hero1)",
-              }}
-            >
-              <div className="hero-content-overlay position-absolute w-100 h-100">
-                <div className="container h-100">
-                  <div className="row h-100">
-                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
-                      <div className="Ctext">
-                        <div className="entry-header">
-                          <br />
-                          <br />
-                          <br />
-
-                          <h1>
-                            Management <br />
-                            Ingénierie <br /> Assistance <br /> et Conseils
-                            (MIAC)
-                          </h1>
-                        </div>
-
-                        <div className="entry-content mt-4">
-                          <p>
-                            {" "}
-                            MIAC est un bureau d’études et de formation
-                            spécialisé dans le domaine de l’environnement et la
-                            sécurité des risques industriels … 
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                        {/* <a href="#" className="button gradient-bg">
-                          à propos de nous
-                        </a> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Hero
+              src="var(--hero1)"
+              title={
+                <>
+                  Management <br /> Ingénierie <br /> Assistance <br /> et
+                  Conseils (MIAC){" "}
+                </>
+              }
+            />
             {/* Slider 2 */}
-            <div
-              className="swiper-slide hero-content-wrap"
-              style={{
-                backgroundImage: "var(--plan_autocad)",
-              }}
-            >
-              <div className="hero-content-overlay position-absolute w-100 h-100">
-                <div className="container h-100">
-                  <div className="row h-100">
-                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
-                      <div className="Ctext">
-                        <div className="entry-header">
-                          <br />
-                          <br />
-                          <br />
-
-                          <h1>
-                            Elaboration <br />
-                            de plan <br /> d'évacuation
-                          </h1>
-                        </div>
-
-                        <div className="entry-content mt-4">
-                          <p>
-                            {" "}
-                            MIAC est un bureau d’études et de formation
-                            spécialisé dans le domaine de l’environnement et la
-                            sécurité des risques industriels … 
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                        {/* <a href="#" className="button gradient-bg">
-                          à propos de nous
-                        </a> */}
-                      </div>
-                      {/* <img src="images/Hero/1.png" alt="" /> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Hero
+              src="var(--plan_autocad)"
+              title={
+                <>
+                  Elaboration <br />
+                  de plan <br /> d'évacuation
+                </>
+              }
+            />
+            {/* Slider 3 */}
+            <Hero
+              src="var(--tracage)"
+              title={
+                <>
+                  Traçage au sol <br />
+                  et séparation
+                  <br /> des voies de circulation
+                </>
+              }
+            />
+            {/* Slider 4 */}
+            <Hero
+              src="var(--signal)"
+              title={
+                <>
+                  Assistance pour <br />la mise en place <br />de la signalisation <br />au sein
+                  de l'entreprise.
+                </>
+              }
+            />
           </div>
           {/* Index */}
           <div className="pagination-wrap position-absolute w-100 Cindex">

@@ -1,11 +1,15 @@
 :root {
   --plan_autocad: url("images/Hero/cadHero.png");
   --hero1: url("images/Hero/hero.png");
+  --tracage: url("images/Hero/tracage.png");
+  --signal: url("images/Hero/signal.png");
 }
 
 @media (max-width: 1000px) {
   :root {
     --plan_autocad: url("images/Hero/cadM.png");
+    --tracage: url("images/Hero/tracageS.png");
+    --signal: url("images/Hero/signalS.png");
   }
 }
 

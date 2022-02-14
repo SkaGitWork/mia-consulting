@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
 
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 
 body {
