@@ -23,9 +23,7 @@ export class Hero extends Component {
 
                   <div className="entry-content mt-4">
                     <p>
-                      MIAC est un bureau d’études et de formation spécialisé
-                      dans le domaine de l’environnement et la sécurité des
-                      risques industriels … 
+                      {this.props.text}
                     </p>
                   </div>
                 </div>

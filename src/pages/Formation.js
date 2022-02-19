@@ -8,8 +8,8 @@ class Home extends React.Component {
     return (
       <>
         <Header nav_select={"formation"} />
-        <div className="quality-services">
-          <div className="container">
+        <div className="quality-services mt-5">
+          <div className="container ">
             <div className="row">
               <div className="col-12">
                 <h2>
@@ -23,11 +23,6 @@ class Home extends React.Component {
                     services :
                   </p>
                 </center>
-                <div className="w-100 text-center mt-5">
-                  <a className="button gradient-bg" href="#">
-                    Lire plus
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -50,9 +45,7 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p />
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
@@ -68,26 +61,19 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p> </p>
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
                     <div className="our-departments-cont">
                       <header className="entry-header d-flex flex-wrap align-items-center">
                         <img src="imagess/blood-sample-2.png" alt="" />
-                        <h3>
-                          Formation OHSAS 18001/ ISO 45001 / ISO 14001 / ISO
-                          22000
-                        </h3>
+                        <h3>Formation ISO 45001 / ISO 14001 / ISO 22000</h3>
                       </header>
                       <div className="entry-content">
                         <p> </p>
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
@@ -102,9 +88,7 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p> </p>
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
@@ -118,9 +102,7 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p> </p>
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4">
@@ -132,9 +114,7 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p> </p>
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-md-0">
@@ -149,9 +129,7 @@ class Home extends React.Component {
                       <div className="entry-content">
                         <p />
                       </div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -164,9 +142,7 @@ class Home extends React.Component {
                         </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-0">
@@ -176,9 +152,7 @@ class Home extends React.Component {
                         <h3>Formation en premiers secours. </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -188,9 +162,7 @@ class Home extends React.Component {
                         <h3>Le travail en milieu confiné. </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -200,9 +172,7 @@ class Home extends React.Component {
                         <h3>L’Habilitation électrique. </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -214,9 +184,7 @@ class Home extends React.Component {
                         </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -226,9 +194,7 @@ class Home extends React.Component {
                         <h3>Les risques liés à la manutention manuelle.</h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -238,9 +204,7 @@ class Home extends React.Component {
                         <h3>Sensibilisation sur les Risques Machines. </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -252,9 +216,7 @@ class Home extends React.Component {
                         </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -267,9 +229,7 @@ class Home extends React.Component {
                         </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -279,9 +239,7 @@ class Home extends React.Component {
                         <h3>La Conduite de PEMP haulotte</h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -291,9 +249,7 @@ class Home extends React.Component {
                         <h3>Formation d’élingueurs </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -306,9 +262,7 @@ class Home extends React.Component {
                         </h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -318,9 +272,7 @@ class Home extends React.Component {
                         <h3>La sécurisation et la protections des sociétés</h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                   <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
@@ -330,9 +282,7 @@ class Home extends React.Component {
                         <h3>Conduite et maintenance des voitures</h3>
                       </header>
                       <div className="entry-content"></div>
-                      <footer className="entry-footer">
-                        <a href="#">Lire plus</a>
-                      </footer>
+                      <footer className="entry-footer"></footer>
                     </div>
                   </div>
                 </div>
@@ -340,7 +290,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="subscribe-banner">
+        {/* <div className="subscribe-banner">
           <div className="container">
             <div className="row">
               <div className="col-12 col-lg-8 offset-lg-2">
@@ -356,7 +306,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <Footer />
       </>
     )

@@ -2,6 +2,7 @@ import React from "react"
 import Footer from "../components/footer/Footer"
 
 import Header from "../components/header/Header"
+import Cad from '../components/Cad/Cad'
 
 class Home extends React.Component {
   render() {
@@ -9,10 +10,10 @@ class Home extends React.Component {
       <>
         <Header nav_select={"services"} />
         <div className="quality-services">
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
               <div className="col-12">
-                <h2>Des services de tout type</h2>
+                <h2>Nos services</h2>
                 <center>
                   <p>
                     Afin d'améliorer la performance environnementale de votre
@@ -170,7 +171,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="subscribe-banner">
+        {/* <div className="subscribe-banner">
           <div className="container">
             <div className="row">
               <div className="col-12 col-lg-8 offset-lg-2">
@@ -186,7 +187,12 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <h1 className="text-center my-5" id="cad">
+          Elaboration 
+          de plan d'évacuation
+        </h1>
+        <Cad />
         <Footer />
       </>
     )

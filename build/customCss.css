@@ -1,0 +1,82 @@
+:root {
+  --plan_autocad: url("images/Hero/cadHero.png");
+  --hero1: url("images/Hero/hero.png");
+  --tracage: url("images/Hero/tracage.png");
+  --signal: url("images/Hero/signal.png");
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --plan_autocad: url("images/Hero/cadM.png");
+    --tracage: url("images/Hero/tracageS.png");
+    --signal: url("images/Hero/signalS.png");
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --plan_autocad: url("images/Hero/cadSmal1.png");
+  }
+}
+
+@media (max-width: 650px) {
+  .Cindex {
+    display: none;
+  }
+  .chero {
+    width: 100%;
+    height: 300px;
+    /* background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("images/Hero/1.png"); */
+  }
+  .Ctext h1,
+  .Ctext p {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+  }
+  .Ctext h1 {
+    color: white !important;
+  }
+  .Ctext p {
+    color: #f2f2f2 !important;
+  }
+}
+
+.home .site-navigation ul li:nth-child(1) a {
+  color: #1100ff !important;
+}
+
+.cad .site-navigation ul li:nth-child(2) a {
+  color: #1100ff !important;
+}
+
+.services .site-navigation ul li:nth-child(3) a {
+  color: #1100ff !important;
+}
+
+.formation .site-navigation ul li:nth-child(4) a {
+  color: #1100ff !important;
+}
+
+.contact .site-navigation ul li:nth-child(5) a {
+  color: #1100ff !important;
+}
+
+.cadGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cadGallery img {
+  padding: 1rem;
+  width: 40%;
+}
+/*# sourceMappingURL=customCss.css.map */

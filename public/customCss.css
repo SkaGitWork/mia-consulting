@@ -19,20 +19,22 @@
   }
 }
 
+.Ctext a {
+  color: blue;
+}
+
+.Cnav {
+  background-color: rgba(191, 191, 191, 0.25);
+  padding-right: 1em !important;
+  border-radius: 1rem;
+}
+
 @media (max-width: 650px) {
   .Cindex {
     display: none;
   }
-  .chero {
-    width: 100%;
-    height: 300px;
-    /* background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url("images/Hero/1.png"); */
-  }
   .Ctext h1,
   .Ctext p {
-    background: rgba(0, 0, 0, 0.4);
     padding: 1rem;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 1rem;
@@ -49,19 +51,21 @@
   color: #1100ff !important;
 }
 
-.cad .site-navigation ul li:nth-child(2) a {
+.services .hero-slider,
+.formation .hero-slider,
+.contact .hero-slider {
+  display: none;
+}
+
+.services .site-navigation ul li:nth-child(2) a {
   color: #1100ff !important;
 }
 
-.services .site-navigation ul li:nth-child(3) a {
+.formation .site-navigation ul li:nth-child(3) a {
   color: #1100ff !important;
 }
 
-.formation .site-navigation ul li:nth-child(4) a {
-  color: #1100ff !important;
-}
-
-.contact .site-navigation ul li:nth-child(5) a {
+.contact .site-navigation ul li:nth-child(4) a {
   color: #1100ff !important;
 }
 

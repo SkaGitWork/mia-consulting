@@ -10,20 +10,17 @@ class Header extends React.Component {
         <div className="nav-bar">
           <div className="container">
             <div className="row">
-              <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
+              <div className="col-12 d-flex flex-wrap justify-content-between align-items-center ">
                 <div className="site-branding d-flex align-items-center">
                   <a className="d-block" href="/" rel="home">
                     <img className="d-block" src="images/logo.png" alt="logo" />
                   </a>
                 </div>
 
-                <nav className="site-navigation d-flex justify-content-end align-items-center">
-                  <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                <nav className="site-navigation d-flex justify-content-end align-items-center ">
+                  <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center Cnav">
                     <li>
                       <a href="/">Accueil</a>
-                    </li>
-                    <li>
-                      <a href="/plan_evacuation">Plan d'évacuation</a>
                     </li>
                     <li>
                       <a href="/services">Nos Services</a>
@@ -34,15 +31,14 @@ class Header extends React.Component {
                     <li>
                       <a href="/contact">Contact</a>
                     </li>
-
-                    <li className="call-btn button gradient-bg mt-3 mt-md-0">
-                      <span
-                        className="d-flex justify-content-center align-items-center"
-                        href="#"
-                      >
-                        <img src="images/emergency-call.png" /> 98 275 954
-                      </span>
-                    </li>
+                  <li className="call-btn button gradient-bg mt-3 mt-md-0">
+                    <span
+                      className="d-flex justify-content-center align-items-center"
+                      href="#"
+                    >
+                      <img src="images/emergency-call.png" /> 98 275 954
+                    </span>
+                  </li>
                   </ul>
                 </nav>
 
@@ -69,6 +65,14 @@ class Header extends React.Component {
                   Conseils (MIAC){" "}
                 </>
               }
+              text={
+                <>
+                  <strong>MIAC </strong>
+                  est un bureau d’études et de formation spécialisé dans le
+                  domaine de l’environnement et la sécurité des risques
+                  industriels...
+                </>
+              }
             />
             {/* Slider 2 */}
             <Hero
@@ -79,8 +83,17 @@ class Header extends React.Component {
                   de plan <br /> d'évacuation
                 </>
               }
+              text={
+                <>
+                  <strong>MIAC </strong>
+                  Elabore des plans d'évacuation pour votre entreprise, voir{" "}
+                  {<a href="/services#cad"> Nos services</a>} pour plus de
+                  détails.
+                </>
+              }
             />
             {/* Slider 3 */}
+
             <Hero
               src="var(--tracage)"
               title={
@@ -90,14 +103,30 @@ class Header extends React.Component {
                   <br /> des voies de circulation
                 </>
               }
+              text={
+                <>
+                  <strong>MIAC </strong>
+                  vous aide à la réalisation du traçage au sol et la séparation
+                  des voies de circulation.
+                </>
+              }
             />
             {/* Slider 4 */}
             <Hero
               src="var(--signal)"
               title={
                 <>
-                  Assistance pour <br />la mise en place <br />de la signalisation <br />au sein
-                  de l'entreprise.
+                  Assistance pour <br />
+                  la mise en place <br />
+                  de la signalisation <br />
+                  au sein de l'entreprise.
+                </>
+              }
+              text={
+                <>
+                  <strong>MIAC </strong>
+                  vous aide à la mise en place de la signalisation au sein de
+                  l'entreprise.
                 </>
               }
             />

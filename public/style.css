@@ -142,7 +142,7 @@ a:hover, a:active {
     height: 100%;
     padding: 30px 15px;
     margin: 0;
-    background: #fff;
+    /* background: #fff; */
     list-style: none;
     overflow-x: scroll;
     transition: all 0.35s;
@@ -162,7 +162,7 @@ a:hover, a:active {
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    color: hsl(0deg 10% 20%);
+    color: hsl(0deg 10% 0%);
     text-decoration: none;
     transition: color .35s;
 }
@@ -199,7 +199,7 @@ a:hover, a:active {
         height: auto;
         padding: 0;
         overflow: auto;
-        background: transparent;
+        /* background: transparent; */
     }
 
     .site-navigation ul li a {
@@ -242,11 +242,6 @@ a:hover, a:active {
     color: #404040;
 }
 
-@media screen and (max-width: 1200px){
-.call-btn{
-    display: none;
-}
-}
 
 .hero-content-overlay p {
     font-size: 16px;
@@ -1247,7 +1242,8 @@ ul.tabs-nav .tab-nav.active {
 # Services
 --------------------------------------------------------------*/
 .quality-services {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .quality-services h2 {
@@ -1499,7 +1495,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .contact-page-map {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .contact-page-map iframe {

@@ -8,20 +8,22 @@ class Home extends React.Component {
     return (
       <>
         <Header nav_select={"contact"} />
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="contact-page-map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12940.157244087897!2d10.6129693!3d35.8235112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae6f2747c81ea5ac!2sStade+olympique+de+Sousse!5e0!3m2!1sfr!2stn!4v1540136478684"
-                  width={600}
-                  height={450}
-                  frameBorder={0}
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                />{" "}
+        <div className="quality-services ">
+          <div className="container mt-5">
+            <div className="row">
+              <div className="col-12">
+                <div className="contact-page-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12940.157244087897!2d10.6129693!3d35.8235112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae6f2747c81ea5ac!2sStade+olympique+de+Sousse!5e0!3m2!1sfr!2stn!4v1540136478684"
+                    width={600}
+                    height={450}
+                    frameBorder={0}
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                  />{" "}
+                </div>
+                {/* map */}
               </div>
-              {/* map */}
             </div>
           </div>
         </div>
